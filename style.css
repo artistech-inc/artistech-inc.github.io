@@ -45,6 +45,72 @@ a {
 	text-decoration: none;
 }
 
+#intelligence {
+	border: solid;
+    border-image: url("images/index_07.jpg") 0 100% 100% 0;
+    float: left;
+}
+#intelligence:hover {
+	border: solid;
+    border-image: url("images/index_07-over.jpg") 0 100% 100% 0;
+    float: left;
+}
+
+#planning {
+	border: solid;
+    border-image: url("images/index_10.jpg") 0 100% 100% 0;
+    float: left;
+}
+#planning:hover {
+	border: solid;
+    border-image: url("images/index_10-over.jpg") 0 100% 100% 0;
+    float: left;
+}
+
+#simulation {
+	border: solid;
+    border-image: url("images/index_11.jpg") 0 100% 100% 0;
+    float: left;
+}
+#simulation:hover {
+	border: solid;
+    border-image: url("images/index_11-over.jpg") 0 100% 100% 0;
+    float: left;
+}
+
+#architectures {
+	border: solid;
+    border-image: url("images/index_12.jpg") 0 100% 100% 0;
+    float: left;
+}
+#architectures:hover {
+	border: solid;
+    border-image: url("images/index_12-over.jpg") 0 100% 100% 0;
+    float: left;
+}
+
+#algorithms {
+	border: solid;
+    border-image: url("images/index_13.jpg") 0 100% 100% 0;
+    float: left;
+}
+#algorithms:hover {
+	border: solid;
+    border-image: url("images/index_13-over.jpg") 0 100% 100% 0;
+    float: left;
+}
+
+#collaboration {
+	border: solid;
+    border-image: url("images/index_14.jpg") 0 100% 100% 0;
+    float: left;
+}
+#collaboration:hover {
+	border: solid;
+    border-image: url("images/index_14-over.jpg") 0 100% 100% 0;
+    float: left;
+}
+
 a:hover {
 	text-decoration: underline;
 }
