@@ -1,39 +1,33 @@
-.style23 {
+.style-x-small-text {
 	font-size: x-small;
-	font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    background-color: #CECECE;
+.style-text-body {
+	font-size: small;
+}
+
+.style-text-header {
+	font-size: medium;
 }
 
 .style29 {
-    font-family: Arial, Helvetica, sans-serif;
     color: #666666;
     font-size: 9px;
 }
 
-.style30 {
-	font-family: Arial, Helvetica, sans-serif;
+.style-medium-text {
 	font-size: medium;
 }
-.style9 {font-family: Arial, Helvetica, sans-serif; font-size: xx-small}
-.style15 {font-family: Arial, Helvetica, sans-serif}
-.style31 {font-size: medium}
+.style9 {font-size: xx-small}
 
-body,
-th {
+body {
+	background-color: #CECECE;
     font-family: Arial, Helvetica, sans-serif;
 }
 td {
-	font-family: Arial, Helvetica, sans-serif;
 	vertical-align: top;
 	background-repeat: repeat-y;
 	background-color: #FFFFFF
-}
-
-.style10 {
-    font-size: medium
 }
 
 .menu_break {
@@ -52,7 +46,6 @@ td {
 
 #copyright {
 	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
 	color: #666666;
 	font-size: 9px;
 }
