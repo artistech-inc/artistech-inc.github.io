@@ -30,9 +30,13 @@ body {
 .style31 {font-size: medium}
 
 body,
-td,
 th {
     font-family: Arial, Helvetica, sans-serif;
+}
+td {
+	font-family: Arial, Helvetica, sans-serif;
+	background-repeat: repeat-y;
+	background-color: #FFFFFF
 }
 
 .style10 {
