@@ -41,6 +41,7 @@ td {
     font-family: Century Gothic, Arial, Helvetica, sans-serif;
 }
 .header_link:hover {
+	text-decoration: none;
     color: #570D14;
 }
 
@@ -48,4 +49,12 @@ td {
 	text-align: center;
 	color: #666666;
 	font-size: 9px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
