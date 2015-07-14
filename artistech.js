@@ -27,3 +27,6 @@ function preloadImages() {
         preloadFlag = true;
     }
 }
+
+function init() {
+}
