@@ -111,6 +111,64 @@ a {
     float: left;
 }
 
+/*This is the menu bar on the left (for Index.html)!*/
+ul.side_menu_index {
+	text-align: right;
+	width: 109px;
+	direction: rtl;
+	list-style: none;
+}
+
+li.side_menu_index {
+	font-weight: bold;
+	font-size: 12px;
+	width:106px;
+}
+
+li.side_menu_index:hover {
+	background: #CECECE;
+}
+
+li.side_menu_index:before {
+	font-size: bold;
+	content: '\2022\A0';
+	color: red;
+}
+
+/*This is the menu bar on the left (for other files)!*/
+ul.side_menu {
+	text-align: right;
+	width: 130px;
+	direction: rtl;
+	list-style: none;
+}
+
+li.side_menu {
+	font-weight: bold;
+	font-size: 12px;
+	width:126px;
+}
+
+li.side_menu:hover {
+	background: #CECECE;
+}
+
+li.side_menu:before {
+	font-size: bold;
+	content: '\2022\A0';
+	color: red;
+}
+
+a.side_menu {
+	color: black;
+}
+a.side_menu:hover {
+	color: black;
+	text-decoration: none;
+	background: #CECECE;
+}
+
+/*This is the top/header menu bar!*/
 ul.menu {
 	font-size: 12px;
 	font-family: Century Gothic, Arial, Helvetica, sans-serif;
