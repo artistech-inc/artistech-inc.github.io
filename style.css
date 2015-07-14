@@ -17,6 +17,7 @@ body {
 td {
 	vertical-align: top;
 	background-repeat: repeat-y;
+	/*background-size: 100%;*/
 	background-color: #FFFFFF
 }
 
@@ -204,4 +205,23 @@ td.menu {
 
 a:hover {
 	text-decoration: underline;
+}
+
+.header_table {
+	border-spacing: 0px;
+    border-collapse: collapse;
+	border: 0px solid black;
+	padding: 0px;
+	color: #CECECE;
+}
+
+table.header_table {
+	color: #CECECE;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+html {
+     overflow: -moz-scrollbars-vertical;
+     overflow: scroll;
 }
