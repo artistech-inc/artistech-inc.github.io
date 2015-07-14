@@ -2,12 +2,18 @@
 	font-size: x-small;
 }
 
+.right-menu,
 .style-text-body {
 	font-size: small;
 }
 
 .style-text-header {
 	font-size: medium;
+}
+
+li.right-menu {
+}
+ul.riht-menu {
 }
 
 body {
@@ -21,18 +27,16 @@ td {
 	background-color: #FFFFFF
 }
 
-.menu_break {
+.header_link {
     color: #FFFFFF;
     font-family: Century Gothic, Arial, Helvetica, sans-serif;
 }
 
+.header_link:hover,
 .header_link {
     text-decoration: none;
-    color: #FFFFFF;
-    font-family: Century Gothic, Arial, Helvetica, sans-serif;
 }
 .header_link:hover {
-	text-decoration: none;
     color: #570D14;
 }
 
@@ -46,7 +50,12 @@ a {
 	text-decoration: none;
 }
 
-#intelligence {
+a:hover {
+	text-decoration: underline;
+}
+
+
+/*#intelligence {
 	border: solid;
     border-image: url("images/index_07.jpg") 0 100% 100% 0;
     float: left;
@@ -110,7 +119,7 @@ a {
 	border: solid;
     border-image: url("images/index_14-over.jpg") 0 100% 100% 0;
     float: left;
-}
+}*/
 
 /*This is the menu bar on the left (for Index.html)!*/
 ul.side_menu_index {
@@ -175,8 +184,8 @@ ul.menu {
 	font-family: Century Gothic, Arial, Helvetica, sans-serif;
 	float: right;
 	list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 li.menu {
@@ -201,10 +210,6 @@ table.menu {
 td.menu {
 	background: green;
 	border:1px solid white;
-}
-
-a:hover {
-	text-decoration: underline;
 }
 
 .header_table {
